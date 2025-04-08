@@ -115,6 +115,7 @@ class RunwayApp(fastapi.FastAPI):
         # self.logger.info("Starting Gunicorn server with configuration:")
         # self.logger.info(f"Workers: {options['workers']}")
         # self.logger.info(f"Worker Class: {options['worker_class']}")
+        self.logger.info(f"Server up!")
         
         try:
             StandaloneApplication(self, options).run()
