@@ -3,3 +3,5 @@ logs/
 .DS_Store
 __pycache__/
 .venv
+build/
+runway_sdk.egg-info
